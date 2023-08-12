@@ -1,0 +1,75 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Common Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container */
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+.container h2 {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.container h2 img {
+    width: 60px;
+}
+
+#createBtn img {
+    width: 25px;
+    margin-right: 7px;
+    user-select: none;
+}
+
+#createBtn {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#9418fd, #571094);
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+}
+
+/* Input Box */
+.input_box {
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 6px;
+}
+
+.input_box img {
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    user-select: none;
+}
