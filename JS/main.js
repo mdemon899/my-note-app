@@ -42,3 +42,11 @@ notes_container.addEventListener("click", (e) => {
     });
   }
 });
+
+// Creating Event Listener For Key Up
+document.addEventListener("keydown", (event) =>{
+if(event.key === "Enter"){
+  document.execCommand("insertLineBreak");
+  event.preventDefault()
+}
+}
